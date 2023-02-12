@@ -15,3 +15,14 @@ let variablefour;
 let valueTwo = 2;
 let valueThree = true;
 let valueFour = "four";
+
+/*8.*/ let firstName = "Victor";
+let lastName = "Nkire";
+let maritalStatus = "Single";
+let country = "Nigeria";
+let age = 23;
+
+/*9.*/ let firstname = "Victor", lastname = "Nkire", maritalstatus = "Single", Country = "Nigeria", Age = 23;
+
+/*10.*/ let myAge = "I am 23 years old", yourAge = "You are 30 years old";
+console.log(myAge, yourAge);
