@@ -1,11 +1,11 @@
-/*1.*/ let stringValue = "This is a string";
+/*5.1.*/ let stringValue = "This is a string";
 console.log(typeof stringValue);
 
-/*2.*/ let booleanValue = true;
+/*5.2.*/ let booleanValue = true;
 console.log(typeof booleanValue);
 
-/*3.*/ let undefinedValue;
+/*5.3.*/ let undefinedValue;
 console.log(typeof undefinedValue);
 
-/*4.*/ let nullValue = null;
+/*5.4.*/ let nullValue = null;
 console.log(typeof nullValue);
