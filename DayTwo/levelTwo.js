@@ -10,4 +10,31 @@ console.log(stringTen === 10)
 stringTen = +stringTen
 console.log(stringTen === 10);
 
-/*4*/console.log(parseFloat("9.8"))
+/*4*/
+let Num = parseFloat("9.8");
+console.log((+Num + 0.2) === 10);
+
+/*5*/
+let wordOne = "Python";
+let wordTwo = "Jargon";
+
+console.log(wordOne.match(/on/gi)? true : false);
+console.log(wordTwo.match(/on/gi) ? true : false);
+
+/*6*/
+let sentence = "I hope this course is not full of jargon.";
+console.log(sentence.search(/jargon/g)? true : false);
+
+/*7*/
+console.log(Math.random() * 101);
+
+/*8*/
+console.log(Math.random() * 50 + 50);
+
+/*9*/
+console.log(Math.random() * 256)
+
+/*10*/
+console.log(Math.floor(Math.random() * "Javascript".length));
+
+/*11*/
