@@ -17,7 +17,6 @@ console.log((+Num + 0.2) === 10);
 /*5*/
 let wordOne = "Python";
 let wordTwo = "Jargon";
-
 console.log(wordOne.match(/on/gi)? true : false);
 console.log(wordTwo.match(/on/gi) ? true : false);
 
