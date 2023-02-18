@@ -16,4 +16,7 @@ const thirdSentence =
 /*4*/
 const fourthSentence =
   "He earns 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro online courses per month.";
-  console.log(fourthSentence.match(/[0-9]/g))
+  let sentenceArray = fourthSentence.split(" ")
+  console.log(Number(sentenceArray[2]) + Number(sentenceArray[8]) + Number(sentenceArray[12]));
+
+  
